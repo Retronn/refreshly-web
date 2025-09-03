@@ -67,6 +67,30 @@ export const Navbar = () => {
 				</ul>
 			</NavbarContent>
 
+			<NavbarContent className='flex sm:hidden basis-1 justify-end' justify='end'>
+				<NavbarItem>
+					<div className='flex items-center gap-3 text-sm'>
+						{isRU ? (
+							<>
+								<NextLink href={switchToEN} className='opacity-70 hover:opacity-100'>
+									EN
+								</NextLink>
+								<span className='opacity-40'>|</span>
+								<span className='font-medium'>RU</span>
+							</>
+						) : (
+							<>
+								<span className='font-medium'>EN</span>
+								<span className='opacity-40'>|</span>
+								<NextLink href={switchToRU} className='opacity-70 hover:opacity-100'>
+									RU
+								</NextLink>
+							</>
+						)}
+					</div>
+				</NavbarItem>
+			</NavbarContent>
+
 			<NavbarContent className='hidden sm:flex basis-1/5 sm:basis-full' justify='end'>
 				{/* Language switch */}
 				<NavbarItem>
