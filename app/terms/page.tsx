@@ -58,6 +58,19 @@ export default function TermsPage() {
 				</div>
 
 				<div>
+					<h2 className='text-xl font-semibold border-l-4 border-refreshly-green pl-3 mb-3'>
+						Payments & Currency
+					</h2>
+					<p>
+						All prices, transactions, and settlements on ReFreshly are processed in{' '}
+						<strong>Kazakhstani Tenge (KZT)</strong>. If you access the service from another country, your
+						bank or payment provider may apply conversion rates and fees according to their policies.
+						ReFreshly is not responsible for exchange rate differences or additional charges applied by your
+						provider.
+					</p>
+				</div>
+
+				<div>
 					<h2 className='text-xl font-semibold border-l-4 border-refreshly-green pl-3 mb-3'>Changes</h2>
 					<p>
 						We may update these Terms from time to time. Continued use of the site constitutes acceptance of
